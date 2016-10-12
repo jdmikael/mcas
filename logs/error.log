@@ -1,0 +1,723 @@
+2016-10-11 19:45:51 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Offering could not be found.
+Exception Attributes: array (
+  'class' => 'Offering',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /mcas/offering
+Stack Trace:
+#0 C:\xampp\htdocs\mcas\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-10-11 19:46:35 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Offering could not be found.
+Exception Attributes: array (
+  'class' => 'Offering',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /mcas/offering
+Stack Trace:
+#0 C:\xampp\htdocs\mcas\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-10-11 19:46:45 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Expense could not be found.
+Exception Attributes: array (
+  'class' => 'Expense',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /mcas/expense
+Stack Trace:
+#0 C:\xampp\htdocs\mcas\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-10-11 19:53:26 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Expense could not be found.
+Exception Attributes: array (
+  'class' => 'Expense',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /mcas/expense
+Stack Trace:
+#0 C:\xampp\htdocs\mcas\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-10-11 19:54:20 Error: [Cake\Controller\Exception\MissingActionException] Action ExpenseController::index() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'ExpenseController',
+  'action' => 'index',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /mcas/expense
+Stack Trace:
+#0 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ExpenseController))
+#2 C:\xampp\htdocs\mcas\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-10-11 19:55:04 Error: [Cake\Controller\Exception\MissingActionException] Action ExpenseController::index() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'ExpenseController',
+  'action' => 'index',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /mcas/expense
+Stack Trace:
+#0 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ExpenseController))
+#2 C:\xampp\htdocs\mcas\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-10-11 19:55:44 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Offering could not be found.
+Exception Attributes: array (
+  'class' => 'Offering',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /mcas/offering
+Stack Trace:
+#0 C:\xampp\htdocs\mcas\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-10-11 19:56:03 Error: [Cake\Controller\Exception\MissingActionException] Action OfferingController::index() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'OfferingController',
+  'action' => 'index',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /mcas/offering
+Stack Trace:
+#0 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\OfferingController))
+#2 C:\xampp\htdocs\mcas\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-10-11 19:56:27 Error: [Cake\View\Exception\MissingTemplateException] Template file "Offering\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Offering\\index.ctp',
+)
+Request URL: /mcas/offering
+Stack Trace:
+#0 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\View\View.php(460): Cake\View\View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Controller\Controller.php(581): Cake\View\View->render(NULL, NULL)
+#2 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(120): Cake\Controller\Controller->render()
+#3 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\OfferingController))
+#4 C:\xampp\htdocs\mcas\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 {main}
+
+
+2016-10-11 19:56:51 Error: [Cake\Controller\Exception\MissingActionException] Action OfferingController::index() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'OfferingController',
+  'action' => 'index',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /mcas/offering
+Stack Trace:
+#0 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\OfferingController))
+#2 C:\xampp\htdocs\mcas\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-10-11 19:58:02 Error: [Cake\Controller\Exception\MissingActionException] Action ExpenseController::index() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'ExpenseController',
+  'action' => 'index',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /mcas/expense
+Stack Trace:
+#0 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ExpenseController))
+#2 C:\xampp\htdocs\mcas\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-10-11 19:58:35 Error: [Cake\View\Exception\MissingTemplateException] Template file "Expense\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Expense\\index.ctp',
+)
+Request URL: /mcas/expense
+Stack Trace:
+#0 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\View\View.php(460): Cake\View\View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Controller\Controller.php(581): Cake\View\View->render(NULL, NULL)
+#2 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(120): Cake\Controller\Controller->render()
+#3 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ExpenseController))
+#4 C:\xampp\htdocs\mcas\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 {main}
+
+
+2016-10-11 19:58:49 Error: [Cake\View\Exception\MissingTemplateException] Template file "Expense\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Expense\\index.ctp',
+)
+Request URL: /mcas/expense
+Stack Trace:
+#0 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\View\View.php(460): Cake\View\View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Controller\Controller.php(581): Cake\View\View->render(NULL, NULL)
+#2 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(120): Cake\Controller\Controller->render()
+#3 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ExpenseController))
+#4 C:\xampp\htdocs\mcas\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 {main}
+
+
+2016-10-11 19:59:38 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Expense could not be found.
+Exception Attributes: array (
+  'class' => 'Expense',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /mcas/expense
+Stack Trace:
+#0 C:\xampp\htdocs\mcas\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-10-11 19:59:41 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Expenses could not be found.
+Exception Attributes: array (
+  'class' => 'Expenses',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /mcas/expenses
+Stack Trace:
+#0 C:\xampp\htdocs\mcas\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-10-12 11:36:35 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'mcas_db.offerings' doesn't exist
+Request URL: /mcas/offering
+Stack Trace:
+#0 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(96): Cake\Database\Schema\Collection->_reflect('Column', 'offerings', Array, Object(Cake\Database\Schema\Table))
+#1 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(65): Cake\Database\Schema\Collection->describe('offerings', Array)
+#2 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\ORM\Table.php(426): Cake\Database\Schema\CachedCollection->describe('offerings')
+#3 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\ORM\Table.php(502): Cake\ORM\Table->schema()
+#4 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\ORM\Association\BelongsTo.php(167): Cake\ORM\Table->primaryKey()
+#5 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\ORM\Association.php(493): Cake\ORM\Association\BelongsTo->_joinCondition(Array)
+#6 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\ORM\EagerLoader.php(323): Cake\ORM\Association->attachTo(Object(Cake\ORM\Query), Array)
+#7 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\ORM\Query.php(682): Cake\ORM\EagerLoader->attachAssociations(Object(Cake\ORM\Query), Object(App\Model\Table\OfferingTable), true)
+#8 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\ORM\Query.php(638): Cake\ORM\Query->_transformQuery()
+#9 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php(120): Cake\ORM\Query->sql()
+#10 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Database\Connection.php(220): Cake\Database\Driver\Mysql->prepare(Object(Cake\ORM\Query))
+#11 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Database\Connection.php(272): Cake\Database\Connection->prepare(Object(Cake\ORM\Query))
+#12 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Database\Query.php(175): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#13 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\ORM\Query.php(657): Cake\Database\Query->execute()
+#14 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(218): Cake\ORM\Query->_execute()
+#15 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\ORM\Query.php(608): Cake\ORM\Query->_all()
+#16 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php(169): Cake\ORM\Query->all()
+#17 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Controller\Controller.php(640): Cake\Controller\Component\PaginatorComponent->paginate(Object(App\Model\Table\OfferingTable), Array)
+#18 C:\xampp\htdocs\mcas\src\Controller\OfferingController.php(24): Cake\Controller\Controller->paginate(Object(App\Model\Table\OfferingTable))
+#19 [internal function]: App\Controller\OfferingController->index()
+#20 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Controller\Controller.php(410): call_user_func_array(Array, Array)
+#21 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#22 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\OfferingController))
+#23 C:\xampp\htdocs\mcas\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#24 {main}
+
+
+2016-10-12 11:37:01 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Offerings could not be found.
+Exception Attributes: array (
+  'class' => 'Offerings',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /mcas/offerings
+Stack Trace:
+#0 C:\xampp\htdocs\mcas\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-10-12 11:37:09 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'mcas_db.offerings' doesn't exist
+Request URL: /mcas/offering
+Stack Trace:
+#0 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(96): Cake\Database\Schema\Collection->_reflect('Column', 'offerings', Array, Object(Cake\Database\Schema\Table))
+#1 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(65): Cake\Database\Schema\Collection->describe('offerings', Array)
+#2 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\ORM\Table.php(426): Cake\Database\Schema\CachedCollection->describe('offerings')
+#3 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\ORM\Table.php(502): Cake\ORM\Table->schema()
+#4 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\ORM\Association\BelongsTo.php(167): Cake\ORM\Table->primaryKey()
+#5 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\ORM\Association.php(493): Cake\ORM\Association\BelongsTo->_joinCondition(Array)
+#6 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\ORM\EagerLoader.php(323): Cake\ORM\Association->attachTo(Object(Cake\ORM\Query), Array)
+#7 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\ORM\Query.php(682): Cake\ORM\EagerLoader->attachAssociations(Object(Cake\ORM\Query), Object(App\Model\Table\OfferingTable), true)
+#8 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\ORM\Query.php(638): Cake\ORM\Query->_transformQuery()
+#9 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php(120): Cake\ORM\Query->sql()
+#10 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Database\Connection.php(220): Cake\Database\Driver\Mysql->prepare(Object(Cake\ORM\Query))
+#11 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Database\Connection.php(272): Cake\Database\Connection->prepare(Object(Cake\ORM\Query))
+#12 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Database\Query.php(175): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#13 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\ORM\Query.php(657): Cake\Database\Query->execute()
+#14 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(218): Cake\ORM\Query->_execute()
+#15 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\ORM\Query.php(608): Cake\ORM\Query->_all()
+#16 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php(169): Cake\ORM\Query->all()
+#17 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Controller\Controller.php(640): Cake\Controller\Component\PaginatorComponent->paginate(Object(App\Model\Table\OfferingTable), Array)
+#18 C:\xampp\htdocs\mcas\src\Controller\OfferingController.php(24): Cake\Controller\Controller->paginate(Object(App\Model\Table\OfferingTable))
+#19 [internal function]: App\Controller\OfferingController->index()
+#20 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Controller\Controller.php(410): call_user_func_array(Array, Array)
+#21 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#22 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\OfferingController))
+#23 C:\xampp\htdocs\mcas\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#24 {main}
+
+
+2016-10-12 11:37:54 Error: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'mcas_db.offering' doesn't exist
+Request URL: /mcas/offering
+Stack Trace:
+#0 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(169): Cake\Database\Statement\MysqlStatement->execute(NULL)
+#2 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php(55): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Database\Connection.php(274): Cake\Database\Log\LoggingStatement->execute()
+#4 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Database\Query.php(175): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#5 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\ORM\Query.php(657): Cake\Database\Query->execute()
+#6 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(218): Cake\ORM\Query->_execute()
+#7 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\ORM\Query.php(608): Cake\ORM\Query->_all()
+#8 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php(169): Cake\ORM\Query->all()
+#9 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Controller\Controller.php(640): Cake\Controller\Component\PaginatorComponent->paginate(Object(App\Model\Table\OfferingTable), Array)
+#10 C:\xampp\htdocs\mcas\src\Controller\OfferingController.php(24): Cake\Controller\Controller->paginate(Object(App\Model\Table\OfferingTable))
+#11 [internal function]: App\Controller\OfferingController->index()
+#12 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Controller\Controller.php(410): call_user_func_array(Array, Array)
+#13 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#14 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\OfferingController))
+#15 C:\xampp\htdocs\mcas\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#16 {main}
+
+
+2016-10-12 11:38:14 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Offerings could not be found.
+Exception Attributes: array (
+  'class' => 'Offerings',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /mcas/offerings
+Stack Trace:
+#0 C:\xampp\htdocs\mcas\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-10-12 11:48:39 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1066 Not unique table/alias: 'Offerings'
+Request URL: /mcas/offerings
+Stack Trace:
+#0 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(169): Cake\Database\Statement\MysqlStatement->execute(NULL)
+#2 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php(55): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Database\Connection.php(274): Cake\Database\Log\LoggingStatement->execute()
+#4 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Database\Query.php(175): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#5 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\ORM\Query.php(657): Cake\Database\Query->execute()
+#6 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(218): Cake\ORM\Query->_execute()
+#7 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\ORM\Query.php(608): Cake\ORM\Query->_all()
+#8 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php(169): Cake\ORM\Query->all()
+#9 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Controller\Controller.php(640): Cake\Controller\Component\PaginatorComponent->paginate(Object(App\Model\Table\OfferingsTable), Array)
+#10 C:\xampp\htdocs\mcas\src\Controller\OfferingsController.php(24): Cake\Controller\Controller->paginate(Object(App\Model\Table\OfferingsTable))
+#11 [internal function]: App\Controller\OfferingsController->index()
+#12 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Controller\Controller.php(410): call_user_func_array(Array, Array)
+#13 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#14 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\OfferingsController))
+#15 C:\xampp\htdocs\mcas\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#16 {main}
+
+
+2016-10-12 11:48:54 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1066 Not unique table/alias: 'Expenses'
+Request URL: /mcas/expenses
+Stack Trace:
+#0 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(169): Cake\Database\Statement\MysqlStatement->execute(NULL)
+#2 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php(55): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Database\Connection.php(274): Cake\Database\Log\LoggingStatement->execute()
+#4 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Database\Query.php(175): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#5 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\ORM\Query.php(657): Cake\Database\Query->execute()
+#6 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(218): Cake\ORM\Query->_execute()
+#7 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\ORM\Query.php(608): Cake\ORM\Query->_all()
+#8 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php(169): Cake\ORM\Query->all()
+#9 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Controller\Controller.php(640): Cake\Controller\Component\PaginatorComponent->paginate(Object(App\Model\Table\ExpensesTable), Array)
+#10 C:\xampp\htdocs\mcas\src\Controller\ExpensesController.php(24): Cake\Controller\Controller->paginate(Object(App\Model\Table\ExpensesTable))
+#11 [internal function]: App\Controller\ExpensesController->index()
+#12 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Controller\Controller.php(410): call_user_func_array(Array, Array)
+#13 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#14 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ExpensesController))
+#15 C:\xampp\htdocs\mcas\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#16 {main}
+
+
+2016-10-12 12:02:51 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1066 Not unique table/alias: 'Expenses'
+Request URL: /mcas/expenses
+Stack Trace:
+#0 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(169): Cake\Database\Statement\MysqlStatement->execute(NULL)
+#2 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php(55): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Database\Connection.php(274): Cake\Database\Log\LoggingStatement->execute()
+#4 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Database\Query.php(175): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#5 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\ORM\Query.php(657): Cake\Database\Query->execute()
+#6 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(218): Cake\ORM\Query->_execute()
+#7 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\ORM\Query.php(608): Cake\ORM\Query->_all()
+#8 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php(169): Cake\ORM\Query->all()
+#9 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Controller\Controller.php(640): Cake\Controller\Component\PaginatorComponent->paginate(Object(App\Model\Table\ExpensesTable), Array)
+#10 C:\xampp\htdocs\mcas\src\Controller\ExpensesController.php(24): Cake\Controller\Controller->paginate(Object(App\Model\Table\ExpensesTable))
+#11 [internal function]: App\Controller\ExpensesController->index()
+#12 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Controller\Controller.php(410): call_user_func_array(Array, Array)
+#13 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#14 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ExpensesController))
+#15 C:\xampp\htdocs\mcas\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#16 {main}
+
+
+2016-10-12 12:03:37 Error: [InvalidArgumentException] Expenses is not associated with Expenses
+Request URL: /mcas/expenses
+Stack Trace:
+#0 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\ORM\EagerLoader.php(233): Cake\ORM\EagerLoader->_normalizeContain(Object(App\Model\Table\ExpensesTable), 'Expenses', Array, Array)
+#1 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\ORM\EagerLoader.php(338): Cake\ORM\EagerLoader->normalized(Object(App\Model\Table\ExpensesTable))
+#2 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\ORM\EagerLoader.php(317): Cake\ORM\EagerLoader->attachableAssociations(Object(App\Model\Table\ExpensesTable))
+#3 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\ORM\Query.php(682): Cake\ORM\EagerLoader->attachAssociations(Object(Cake\ORM\Query), Object(App\Model\Table\ExpensesTable), true)
+#4 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\ORM\Query.php(638): Cake\ORM\Query->_transformQuery()
+#5 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php(120): Cake\ORM\Query->sql()
+#6 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Database\Connection.php(220): Cake\Database\Driver\Mysql->prepare(Object(Cake\ORM\Query))
+#7 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Database\Connection.php(272): Cake\Database\Connection->prepare(Object(Cake\ORM\Query))
+#8 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Database\Query.php(175): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#9 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\ORM\Query.php(657): Cake\Database\Query->execute()
+#10 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(218): Cake\ORM\Query->_execute()
+#11 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\ORM\Query.php(608): Cake\ORM\Query->_all()
+#12 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php(169): Cake\ORM\Query->all()
+#13 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Controller\Controller.php(640): Cake\Controller\Component\PaginatorComponent->paginate(Object(App\Model\Table\ExpensesTable), Array)
+#14 C:\xampp\htdocs\mcas\src\Controller\ExpensesController.php(24): Cake\Controller\Controller->paginate(Object(App\Model\Table\ExpensesTable))
+#15 [internal function]: App\Controller\ExpensesController->index()
+#16 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Controller\Controller.php(410): call_user_func_array(Array, Array)
+#17 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#18 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ExpensesController))
+#19 C:\xampp\htdocs\mcas\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#20 {main}
+
+
+2016-10-12 12:03:57 Error: [InvalidArgumentException] Offerings is not associated with Offerings
+Request URL: /mcas/offerings
+Stack Trace:
+#0 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\ORM\EagerLoader.php(233): Cake\ORM\EagerLoader->_normalizeContain(Object(App\Model\Table\OfferingsTable), 'Offerings', Array, Array)
+#1 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\ORM\EagerLoader.php(338): Cake\ORM\EagerLoader->normalized(Object(App\Model\Table\OfferingsTable))
+#2 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\ORM\EagerLoader.php(317): Cake\ORM\EagerLoader->attachableAssociations(Object(App\Model\Table\OfferingsTable))
+#3 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\ORM\Query.php(682): Cake\ORM\EagerLoader->attachAssociations(Object(Cake\ORM\Query), Object(App\Model\Table\OfferingsTable), true)
+#4 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\ORM\Query.php(638): Cake\ORM\Query->_transformQuery()
+#5 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php(120): Cake\ORM\Query->sql()
+#6 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Database\Connection.php(220): Cake\Database\Driver\Mysql->prepare(Object(Cake\ORM\Query))
+#7 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Database\Connection.php(272): Cake\Database\Connection->prepare(Object(Cake\ORM\Query))
+#8 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Database\Query.php(175): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#9 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\ORM\Query.php(657): Cake\Database\Query->execute()
+#10 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(218): Cake\ORM\Query->_execute()
+#11 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\ORM\Query.php(608): Cake\ORM\Query->_all()
+#12 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php(169): Cake\ORM\Query->all()
+#13 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Controller\Controller.php(640): Cake\Controller\Component\PaginatorComponent->paginate(Object(App\Model\Table\OfferingsTable), Array)
+#14 C:\xampp\htdocs\mcas\src\Controller\OfferingsController.php(24): Cake\Controller\Controller->paginate(Object(App\Model\Table\OfferingsTable))
+#15 [internal function]: App\Controller\OfferingsController->index()
+#16 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Controller\Controller.php(410): call_user_func_array(Array, Array)
+#17 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#18 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\OfferingsController))
+#19 C:\xampp\htdocs\mcas\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#20 {main}
+
+
+2016-10-12 12:06:23 Error: [InvalidArgumentException] Offerings is not associated with Offerings
+Request URL: /mcas/offerings
+Stack Trace:
+#0 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\ORM\EagerLoader.php(233): Cake\ORM\EagerLoader->_normalizeContain(Object(App\Model\Table\OfferingsTable), 'Offerings', Array, Array)
+#1 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\ORM\EagerLoader.php(338): Cake\ORM\EagerLoader->normalized(Object(App\Model\Table\OfferingsTable))
+#2 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\ORM\EagerLoader.php(317): Cake\ORM\EagerLoader->attachableAssociations(Object(App\Model\Table\OfferingsTable))
+#3 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\ORM\Query.php(682): Cake\ORM\EagerLoader->attachAssociations(Object(Cake\ORM\Query), Object(App\Model\Table\OfferingsTable), true)
+#4 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\ORM\Query.php(638): Cake\ORM\Query->_transformQuery()
+#5 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php(120): Cake\ORM\Query->sql()
+#6 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Database\Connection.php(220): Cake\Database\Driver\Mysql->prepare(Object(Cake\ORM\Query))
+#7 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Database\Connection.php(272): Cake\Database\Connection->prepare(Object(Cake\ORM\Query))
+#8 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Database\Query.php(175): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#9 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\ORM\Query.php(657): Cake\Database\Query->execute()
+#10 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(218): Cake\ORM\Query->_execute()
+#11 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\ORM\Query.php(608): Cake\ORM\Query->_all()
+#12 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php(169): Cake\ORM\Query->all()
+#13 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Controller\Controller.php(640): Cake\Controller\Component\PaginatorComponent->paginate(Object(App\Model\Table\OfferingsTable), Array)
+#14 C:\xampp\htdocs\mcas\src\Controller\OfferingsController.php(24): Cake\Controller\Controller->paginate(Object(App\Model\Table\OfferingsTable))
+#15 [internal function]: App\Controller\OfferingsController->index()
+#16 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Controller\Controller.php(410): call_user_func_array(Array, Array)
+#17 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#18 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\OfferingsController))
+#19 C:\xampp\htdocs\mcas\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#20 {main}
+
+
+2016-10-12 12:08:24 Error: [InvalidArgumentException] Offerings is not associated with Offerings
+Request URL: /mcas/offerings
+Stack Trace:
+#0 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\ORM\EagerLoader.php(233): Cake\ORM\EagerLoader->_normalizeContain(Object(App\Model\Table\OfferingsTable), 'Offerings', Array, Array)
+#1 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\ORM\EagerLoader.php(338): Cake\ORM\EagerLoader->normalized(Object(App\Model\Table\OfferingsTable))
+#2 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\ORM\EagerLoader.php(317): Cake\ORM\EagerLoader->attachableAssociations(Object(App\Model\Table\OfferingsTable))
+#3 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\ORM\Query.php(682): Cake\ORM\EagerLoader->attachAssociations(Object(Cake\ORM\Query), Object(App\Model\Table\OfferingsTable), true)
+#4 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\ORM\Query.php(638): Cake\ORM\Query->_transformQuery()
+#5 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php(120): Cake\ORM\Query->sql()
+#6 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Database\Connection.php(220): Cake\Database\Driver\Mysql->prepare(Object(Cake\ORM\Query))
+#7 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Database\Connection.php(272): Cake\Database\Connection->prepare(Object(Cake\ORM\Query))
+#8 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Database\Query.php(175): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#9 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\ORM\Query.php(657): Cake\Database\Query->execute()
+#10 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(218): Cake\ORM\Query->_execute()
+#11 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\ORM\Query.php(608): Cake\ORM\Query->_all()
+#12 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php(169): Cake\ORM\Query->all()
+#13 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Controller\Controller.php(640): Cake\Controller\Component\PaginatorComponent->paginate(Object(App\Model\Table\OfferingsTable), Array)
+#14 C:\xampp\htdocs\mcas\src\Controller\OfferingsController.php(24): Cake\Controller\Controller->paginate(Object(App\Model\Table\OfferingsTable))
+#15 [internal function]: App\Controller\OfferingsController->index()
+#16 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Controller\Controller.php(410): call_user_func_array(Array, Array)
+#17 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#18 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\OfferingsController))
+#19 C:\xampp\htdocs\mcas\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#20 {main}
+
+
+2016-10-12 12:16:35 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Expenses.id' in 'where clause'
+Request URL: /mcas/expenses/view/1
+Stack Trace:
+#0 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(169): Cake\Database\Statement\MysqlStatement->execute(NULL)
+#2 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php(55): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Database\Connection.php(274): Cake\Database\Log\LoggingStatement->execute()
+#4 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Database\Query.php(175): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#5 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\ORM\Query.php(657): Cake\Database\Query->execute()
+#6 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(218): Cake\ORM\Query->_execute()
+#7 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\ORM\Query.php(608): Cake\ORM\Query->_all()
+#8 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(341): Cake\ORM\Query->all()
+#9 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(352): Cake\ORM\Query->first()
+#10 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\ORM\Table.php(1127): Cake\ORM\Query->firstOrFail()
+#11 C:\xampp\htdocs\mcas\src\Controller\ExpensesController.php(36): Cake\ORM\Table->get('1', Array)
+#12 [internal function]: App\Controller\ExpensesController->view('1')
+#13 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Controller\Controller.php(410): call_user_func_array(Array, Array)
+#14 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#15 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ExpensesController))
+#16 C:\xampp\htdocs\mcas\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#17 {main}
+
+
+2016-10-12 12:20:23 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1066 Not unique table/alias: 'Offerings'
+Request URL: /mcas/offerings
+Stack Trace:
+#0 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(169): Cake\Database\Statement\MysqlStatement->execute(NULL)
+#2 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php(55): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Database\Connection.php(274): Cake\Database\Log\LoggingStatement->execute()
+#4 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Database\Query.php(175): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#5 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\ORM\Query.php(657): Cake\Database\Query->execute()
+#6 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(218): Cake\ORM\Query->_execute()
+#7 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\ORM\Query.php(608): Cake\ORM\Query->_all()
+#8 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php(169): Cake\ORM\Query->all()
+#9 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Controller\Controller.php(640): Cake\Controller\Component\PaginatorComponent->paginate(Object(App\Model\Table\OfferingsTable), Array)
+#10 C:\xampp\htdocs\mcas\src\Controller\OfferingsController.php(24): Cake\Controller\Controller->paginate(Object(App\Model\Table\OfferingsTable))
+#11 [internal function]: App\Controller\OfferingsController->index()
+#12 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Controller\Controller.php(410): call_user_func_array(Array, Array)
+#13 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#14 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\OfferingsController))
+#15 C:\xampp\htdocs\mcas\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#16 {main}
+
+
+2016-10-12 12:20:30 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1066 Not unique table/alias: 'Offerings'
+Request URL: /mcas/offerings
+Stack Trace:
+#0 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(169): Cake\Database\Statement\MysqlStatement->execute(NULL)
+#2 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php(55): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Database\Connection.php(274): Cake\Database\Log\LoggingStatement->execute()
+#4 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Database\Query.php(175): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#5 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\ORM\Query.php(657): Cake\Database\Query->execute()
+#6 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(218): Cake\ORM\Query->_execute()
+#7 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\ORM\Query.php(608): Cake\ORM\Query->_all()
+#8 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php(169): Cake\ORM\Query->all()
+#9 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Controller\Controller.php(640): Cake\Controller\Component\PaginatorComponent->paginate(Object(App\Model\Table\OfferingsTable), Array)
+#10 C:\xampp\htdocs\mcas\src\Controller\OfferingsController.php(24): Cake\Controller\Controller->paginate(Object(App\Model\Table\OfferingsTable))
+#11 [internal function]: App\Controller\OfferingsController->index()
+#12 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Controller\Controller.php(410): call_user_func_array(Array, Array)
+#13 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#14 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\OfferingsController))
+#15 C:\xampp\htdocs\mcas\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#16 {main}
+
+
+2016-10-12 12:21:27 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1066 Not unique table/alias: 'Offerings'
+Request URL: /mcas/offerings
+Stack Trace:
+#0 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(169): Cake\Database\Statement\MysqlStatement->execute(NULL)
+#2 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php(55): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Database\Connection.php(274): Cake\Database\Log\LoggingStatement->execute()
+#4 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Database\Query.php(175): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#5 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\ORM\Query.php(657): Cake\Database\Query->execute()
+#6 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(218): Cake\ORM\Query->_execute()
+#7 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\ORM\Query.php(608): Cake\ORM\Query->_all()
+#8 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php(169): Cake\ORM\Query->all()
+#9 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Controller\Controller.php(640): Cake\Controller\Component\PaginatorComponent->paginate(Object(App\Model\Table\OfferingsTable), Array)
+#10 C:\xampp\htdocs\mcas\src\Controller\OfferingsController.php(24): Cake\Controller\Controller->paginate(Object(App\Model\Table\OfferingsTable))
+#11 [internal function]: App\Controller\OfferingsController->index()
+#12 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Controller\Controller.php(410): call_user_func_array(Array, Array)
+#13 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#14 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\OfferingsController))
+#15 C:\xampp\htdocs\mcas\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#16 {main}
+
+
+2016-10-12 12:22:06 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1066 Not unique table/alias: 'Expenses'
+Request URL: /mcas/expenses
+Stack Trace:
+#0 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(169): Cake\Database\Statement\MysqlStatement->execute(NULL)
+#2 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php(55): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Database\Connection.php(274): Cake\Database\Log\LoggingStatement->execute()
+#4 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Database\Query.php(175): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#5 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\ORM\Query.php(657): Cake\Database\Query->execute()
+#6 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(218): Cake\ORM\Query->_execute()
+#7 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\ORM\Query.php(608): Cake\ORM\Query->_all()
+#8 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php(169): Cake\ORM\Query->all()
+#9 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Controller\Controller.php(640): Cake\Controller\Component\PaginatorComponent->paginate(Object(App\Model\Table\ExpensesTable), Array)
+#10 C:\xampp\htdocs\mcas\src\Controller\ExpensesController.php(24): Cake\Controller\Controller->paginate(Object(App\Model\Table\ExpensesTable))
+#11 [internal function]: App\Controller\ExpensesController->index()
+#12 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Controller\Controller.php(410): call_user_func_array(Array, Array)
+#13 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#14 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ExpensesController))
+#15 C:\xampp\htdocs\mcas\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#16 {main}
+
+
+2016-10-12 12:24:16 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1066 Not unique table/alias: 'Offerings'
+Request URL: /mcas/offerings
+Stack Trace:
+#0 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(169): Cake\Database\Statement\MysqlStatement->execute(NULL)
+#2 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php(55): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Database\Connection.php(274): Cake\Database\Log\LoggingStatement->execute()
+#4 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Database\Query.php(175): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#5 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\ORM\Query.php(657): Cake\Database\Query->execute()
+#6 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(218): Cake\ORM\Query->_execute()
+#7 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\ORM\Query.php(608): Cake\ORM\Query->_all()
+#8 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php(169): Cake\ORM\Query->all()
+#9 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Controller\Controller.php(640): Cake\Controller\Component\PaginatorComponent->paginate(Object(App\Model\Table\OfferingsTable), Array)
+#10 C:\xampp\htdocs\mcas\src\Controller\OfferingsController.php(24): Cake\Controller\Controller->paginate(Object(App\Model\Table\OfferingsTable))
+#11 [internal function]: App\Controller\OfferingsController->index()
+#12 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Controller\Controller.php(410): call_user_func_array(Array, Array)
+#13 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#14 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\OfferingsController))
+#15 C:\xampp\htdocs\mcas\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#16 {main}
+
+
+2016-10-12 12:25:59 Error: [InvalidArgumentException] Offerings is not associated with Offerings
+Request URL: /mcas/offerings
+Stack Trace:
+#0 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\ORM\EagerLoader.php(233): Cake\ORM\EagerLoader->_normalizeContain(Object(App\Model\Table\OfferingsTable), 'Offerings', Array, Array)
+#1 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\ORM\EagerLoader.php(338): Cake\ORM\EagerLoader->normalized(Object(App\Model\Table\OfferingsTable))
+#2 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\ORM\EagerLoader.php(317): Cake\ORM\EagerLoader->attachableAssociations(Object(App\Model\Table\OfferingsTable))
+#3 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\ORM\Query.php(682): Cake\ORM\EagerLoader->attachAssociations(Object(Cake\ORM\Query), Object(App\Model\Table\OfferingsTable), true)
+#4 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\ORM\Query.php(638): Cake\ORM\Query->_transformQuery()
+#5 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php(120): Cake\ORM\Query->sql()
+#6 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Database\Connection.php(220): Cake\Database\Driver\Mysql->prepare(Object(Cake\ORM\Query))
+#7 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Database\Connection.php(272): Cake\Database\Connection->prepare(Object(Cake\ORM\Query))
+#8 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Database\Query.php(175): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#9 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\ORM\Query.php(657): Cake\Database\Query->execute()
+#10 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(218): Cake\ORM\Query->_execute()
+#11 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\ORM\Query.php(608): Cake\ORM\Query->_all()
+#12 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php(169): Cake\ORM\Query->all()
+#13 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Controller\Controller.php(640): Cake\Controller\Component\PaginatorComponent->paginate(Object(App\Model\Table\OfferingsTable), Array)
+#14 C:\xampp\htdocs\mcas\src\Controller\OfferingsController.php(24): Cake\Controller\Controller->paginate(Object(App\Model\Table\OfferingsTable))
+#15 [internal function]: App\Controller\OfferingsController->index()
+#16 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Controller\Controller.php(410): call_user_func_array(Array, Array)
+#17 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#18 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\OfferingsController))
+#19 C:\xampp\htdocs\mcas\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#20 {main}
+
+
+2016-10-12 12:26:22 Error: [InvalidArgumentException] Offerings is not associated with Offerings
+Request URL: /mcas/offerings
+Stack Trace:
+#0 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\ORM\EagerLoader.php(233): Cake\ORM\EagerLoader->_normalizeContain(Object(App\Model\Table\OfferingsTable), 'Offerings', Array, Array)
+#1 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\ORM\EagerLoader.php(338): Cake\ORM\EagerLoader->normalized(Object(App\Model\Table\OfferingsTable))
+#2 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\ORM\EagerLoader.php(317): Cake\ORM\EagerLoader->attachableAssociations(Object(App\Model\Table\OfferingsTable))
+#3 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\ORM\Query.php(682): Cake\ORM\EagerLoader->attachAssociations(Object(Cake\ORM\Query), Object(App\Model\Table\OfferingsTable), true)
+#4 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\ORM\Query.php(638): Cake\ORM\Query->_transformQuery()
+#5 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php(120): Cake\ORM\Query->sql()
+#6 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Database\Connection.php(220): Cake\Database\Driver\Mysql->prepare(Object(Cake\ORM\Query))
+#7 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Database\Connection.php(272): Cake\Database\Connection->prepare(Object(Cake\ORM\Query))
+#8 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Database\Query.php(175): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#9 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\ORM\Query.php(657): Cake\Database\Query->execute()
+#10 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(218): Cake\ORM\Query->_execute()
+#11 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\ORM\Query.php(608): Cake\ORM\Query->_all()
+#12 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php(169): Cake\ORM\Query->all()
+#13 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Controller\Controller.php(640): Cake\Controller\Component\PaginatorComponent->paginate(Object(App\Model\Table\OfferingsTable), Array)
+#14 C:\xampp\htdocs\mcas\src\Controller\OfferingsController.php(24): Cake\Controller\Controller->paginate(Object(App\Model\Table\OfferingsTable))
+#15 [internal function]: App\Controller\OfferingsController->index()
+#16 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Controller\Controller.php(410): call_user_func_array(Array, Array)
+#17 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#18 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\OfferingsController))
+#19 C:\xampp\htdocs\mcas\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#20 {main}
+
+
+2016-10-12 12:27:17 Error: [InvalidArgumentException] Offerings is not associated with Offerings
+Request URL: /mcas/offerings
+Stack Trace:
+#0 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\ORM\EagerLoader.php(233): Cake\ORM\EagerLoader->_normalizeContain(Object(App\Model\Table\OfferingsTable), 'Offerings', Array, Array)
+#1 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\ORM\EagerLoader.php(338): Cake\ORM\EagerLoader->normalized(Object(App\Model\Table\OfferingsTable))
+#2 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\ORM\EagerLoader.php(317): Cake\ORM\EagerLoader->attachableAssociations(Object(App\Model\Table\OfferingsTable))
+#3 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\ORM\Query.php(682): Cake\ORM\EagerLoader->attachAssociations(Object(Cake\ORM\Query), Object(App\Model\Table\OfferingsTable), true)
+#4 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\ORM\Query.php(638): Cake\ORM\Query->_transformQuery()
+#5 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php(120): Cake\ORM\Query->sql()
+#6 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Database\Connection.php(220): Cake\Database\Driver\Mysql->prepare(Object(Cake\ORM\Query))
+#7 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Database\Connection.php(272): Cake\Database\Connection->prepare(Object(Cake\ORM\Query))
+#8 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Database\Query.php(175): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#9 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\ORM\Query.php(657): Cake\Database\Query->execute()
+#10 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(218): Cake\ORM\Query->_execute()
+#11 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\ORM\Query.php(608): Cake\ORM\Query->_all()
+#12 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php(169): Cake\ORM\Query->all()
+#13 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Controller\Controller.php(640): Cake\Controller\Component\PaginatorComponent->paginate(Object(App\Model\Table\OfferingsTable), Array)
+#14 C:\xampp\htdocs\mcas\src\Controller\OfferingsController.php(24): Cake\Controller\Controller->paginate(Object(App\Model\Table\OfferingsTable))
+#15 [internal function]: App\Controller\OfferingsController->index()
+#16 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Controller\Controller.php(410): call_user_func_array(Array, Array)
+#17 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#18 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\OfferingsController))
+#19 C:\xampp\htdocs\mcas\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#20 {main}
+
+
+2016-10-12 12:27:58 Error: [InvalidArgumentException] Offerings is not associated with Offerings
+Request URL: /mcas/offerings
+Stack Trace:
+#0 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\ORM\EagerLoader.php(233): Cake\ORM\EagerLoader->_normalizeContain(Object(App\Model\Table\OfferingsTable), 'Offerings', Array, Array)
+#1 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\ORM\EagerLoader.php(338): Cake\ORM\EagerLoader->normalized(Object(App\Model\Table\OfferingsTable))
+#2 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\ORM\EagerLoader.php(317): Cake\ORM\EagerLoader->attachableAssociations(Object(App\Model\Table\OfferingsTable))
+#3 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\ORM\Query.php(682): Cake\ORM\EagerLoader->attachAssociations(Object(Cake\ORM\Query), Object(App\Model\Table\OfferingsTable), true)
+#4 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\ORM\Query.php(638): Cake\ORM\Query->_transformQuery()
+#5 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php(120): Cake\ORM\Query->sql()
+#6 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Database\Connection.php(220): Cake\Database\Driver\Mysql->prepare(Object(Cake\ORM\Query))
+#7 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Database\Connection.php(272): Cake\Database\Connection->prepare(Object(Cake\ORM\Query))
+#8 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Database\Query.php(175): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#9 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\ORM\Query.php(657): Cake\Database\Query->execute()
+#10 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(218): Cake\ORM\Query->_execute()
+#11 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\ORM\Query.php(608): Cake\ORM\Query->_all()
+#12 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php(169): Cake\ORM\Query->all()
+#13 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Controller\Controller.php(640): Cake\Controller\Component\PaginatorComponent->paginate(Object(App\Model\Table\OfferingsTable), Array)
+#14 C:\xampp\htdocs\mcas\src\Controller\OfferingsController.php(24): Cake\Controller\Controller->paginate(Object(App\Model\Table\OfferingsTable))
+#15 [internal function]: App\Controller\OfferingsController->index()
+#16 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Controller\Controller.php(410): call_user_func_array(Array, Array)
+#17 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#18 C:\xampp\htdocs\mcas\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\OfferingsController))
+#19 C:\xampp\htdocs\mcas\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#20 {main}
+
+
